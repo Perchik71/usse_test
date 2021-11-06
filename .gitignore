@@ -26,6 +26,12 @@
 *.a
 *.lib
 
+# VS2017
+.vs/
+packages/
+x64/
+x86/
+
 # Executables
 *.exe
 *.out
