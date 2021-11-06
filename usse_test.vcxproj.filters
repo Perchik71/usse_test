@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\api">
+      <UniqueIdentifier>{9a9e3ca3-3e38-4337-8f7c-1f084f740fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\api">
+      <UniqueIdentifier>{61493fb1-978e-47fe-933e-92eb056cc050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\patches">
+      <UniqueIdentifier>{f0ff3286-19e2-4f81-8680-a7ab60520189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\patches">
+      <UniqueIdentifier>{0699cab5-1a15-4ecb-97cc-14d1ad0bc226}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="version_exports.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="api\RunHandler.cpp">
+      <Filter>Исходные файлы\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dump.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="xutil.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UtfStr.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="patches\patches_sseck.cpp">
+      <Filter>Исходные файлы\patches</Filter>
+    </ClCompile>
+    <ClCompile Include="patches\TESDialogSpell.cpp">
+      <Filter>Исходные файлы\patches</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="api\RunHandler.h">
+      <Filter>Файлы заголовков\api</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler_internal.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="xutil.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UtfStr.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="api\BGString.h">
+      <Filter>Файлы заголовков\api</Filter>
+    </ClInclude>
+    <ClInclude Include="patches\UnicodePatchOffset.h">
+      <Filter>Файлы заголовков\patches</Filter>
+    </ClInclude>
+    <ClInclude Include="patches\TESDialogSpell.h">
+      <Filter>Файлы заголовков\patches</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
